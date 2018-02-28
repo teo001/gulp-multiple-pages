@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+    <title>{{title}}</title>
+  </head>
+  <body id="body"> 
+  {{raw}}<script src="../lib/template-web.js"></script>{{/raw}}
+    <script type="text/html"  id="index">
+      {{ include "../components/head.art" }}
+    </script>
+    {{raw}}<script src="indexData.js"></script>{{/raw}}
+  </body>
+</html>
